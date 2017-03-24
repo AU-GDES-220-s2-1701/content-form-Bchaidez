@@ -5,10 +5,10 @@
 	and other elements used for layout. */
 
 /*
-div, main, article, section, aside, 
+div, main, article, section, aside,
 hgroup, header, footer, address, nav {
 	border: 1px solid rgba(255,0,0,0.15) !important;
-	background: rgba(255,0,0,0.05) !important;		
+	background: rgba(255,0,0,0.05) !important;
 }
 */
 
@@ -25,5 +25,35 @@ hgroup, header, footer, address, nav {
 	max-width: 1200px;
 	padding: 2em;
 	border: 1px solid #eee;
+	min-width: 800px;
 }
 
+.maeda{
+	float: left;
+	width: 50%;
+	padding: 1em;
+	margin-left: 1em;
+	margin-top: 4em;
+	text-align: justify;
+}
+
+.photo1{
+	float: left;
+	width: 30%;
+	padding-top: 4em;
+	margin-left: 6em;
+	margin-bottom: 1em;
+}
+
+.straight-text{
+	float: left;
+	width: 80%;
+	margin-left: 8em;
+
+	text-align: justify;
+
+}
+
+.centered-image{
+	text-align: center;
+}
