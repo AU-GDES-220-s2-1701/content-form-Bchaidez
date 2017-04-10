@@ -16,6 +16,56 @@ hgroup, header, footer, address, nav {
 
 /*	Generally, you will only want one container element in
 	the document, wrapping around the main content area. */
+
+/*UNIVERSALS*/
+.center-me{
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+
+
+	/* NAV BAR */
+.global ul{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 0em;
+}
+
+.global li{
+margin-bottom: 0.5em;
+}
+
+.global a{
+	color: #fff;
+	text-decoration: none;
+	background-color: #52aa8a;
+	padding: 5.5px;
+	width: 150px;
+	display: block;
+	text-align: center;
+}
+
+.global a:hover{
+	background-color: #5DE876;
+}
+
+.global .active {
+	background-color: #5DE876;
+}
+
+.global{
+	float: left;
+	width: 30%;
+}
+
+h1{
+	float: right;
+	margin-top: 1.5em;
+	padding-right: 1.3em;
+}
+/*END NAV BAR*/
+
 .container {
 	margin-top: 1em;
 	margin-right: auto;
@@ -41,19 +91,67 @@ hgroup, header, footer, address, nav {
 	float: left;
 	width: 30%;
 	padding-top: 4em;
-	margin-left: 6em;
+	margin-left: 8em;
 	margin-bottom: 1em;
 }
 
 .straight-text{
 	float: left;
-	width: 80%;
-	margin-left: 8em;
-
+	width: 60%;
+	margin-left: 250px;
 	text-align: justify;
+	min-width: 350px;
 
 }
 
 .centered-image{
 	text-align: center;
+}
+
+/* Fight Page*/
+.indent-right{
+	float: left;
+	width: 60%;
+	margin-left: 0em;
+	text-align: justify;
+	padding-bottom: 2em;
+}
+
+.pic-left{
+	float:left;
+	width: 40%;
+	padding-right: 4em;
+}
+
+.pic-right{
+	float:right;
+	width: 40%;
+	padding-left: 3em;
+	padding-bottom: 1em;
+}
+.indent-left{
+	float: left;
+	width: 50%;
+	margin-left: 0em;
+	text-align: justify;
+	padding-bottom: 2em;
+}
+
+.backmount{
+	padding-top: 2em;
+}
+
+.choke{
+	padding-top: 1.5em;
+}
+
+
+/* HEALTH PAGE*/
+.ear {
+	width: 90%;
+}
+
+/* UNIFORM */
+.belt{
+	padding-top: 1.5em;
 }
